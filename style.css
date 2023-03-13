@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 41, 41);
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    padding: 30px;
+   
+    min-height: 100vh;
+    color: aqua;
+
+}
+h1 {
+    text-align: center;
+}
+
+strong {
+    color: yellow;
+}
+
+.box > mark {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang_list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.lang_list > li{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 5px;
+    height: 30px;
+}
+.lango {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 100px;
+    height: 100%;
+}
+.back {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+}
+
+.proc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    /* width: 100%; */
+    background-color: rgb(23, 152, 145);
+    padding-left: 5px;
+}
+.javascript{
+    width: 100%;
+}
+.java{
+    width: 73%;
+    background-color: rgb(6, 185, 177);
+}
+.python{
+    width: 70.1%;
+    background-color: rgb(6, 185, 177);
+}
+.c,
+.typescript{
+    width: 69.6%;
+    background-color: rgb(6, 185, 177);
+}
+
+.php{
+    
+    width: 37.1%;
+    background-color: rgb(56, 199, 193);
+}
+.kotlin{
+    width: 16.7%;
+    background-color: rgb(56, 199, 193);
+}
+.cplus{
+    width: 14.6%;
+    background-color: rgb(56, 199, 193);
+} 
+.db{
+    background-color: rgb(56, 199, 193);
+    width: 14.1%;
+} .swift{
+    background-color:rgb(106, 213, 208);
+    width: 13%;
+} .go{
+    background-color: rgb(106, 213, 208);
+    width: 9.9%;
+} .ruby{
+    background-color: rgb(106, 213, 208);
+    width: 9.4%;
+} .dart{
+    background-color: rgb(106, 213, 208);
+    width: 5.7%;
+}
+.scala {
+    background-color: rgb(204, 204, 204);
+    height: 100%;
+    width: 4.1%;
+}
+.apex,
+.s{
+    background-color: rgb(204, 204, 204);
+    height: 100%;
+    width: 3.6%;
+}
+
+.ones {
+    background-color: rgb(204, 204, 204);
+    height: 100%;
+    width: 2.09%;
+}
+.groovy,
+.rust {
+    background-color: rgb(204, 204, 204);
+    height: 100%;
+    width: 1.57%;
+}
